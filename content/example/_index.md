@@ -1,9 +1,9 @@
 +++
-title = "Example presentation"
+title = "Example slides"
 outputs = ["Reveal"]
 +++
 
-# This is example page
+# This is an example page
 
 ```go
 package main
