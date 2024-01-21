@@ -1,3 +1,23 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mkosakana.github.io/slides.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'mkosakana.slides.io'
+theme = ["github.com/dzello/reveal-hugo"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.reveal_hugo]
+theme = "sky"
+history = true
+transition = 'convex'
+custom_css = "css/typography.css"
+
+[markup.highlight]
+codeFences = true
+style = "tango"
+tabWidth = 4
