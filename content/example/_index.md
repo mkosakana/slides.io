@@ -3,7 +3,7 @@ title = "My presentation"
 outputs = ["Reveal"]
 +++
 
-# さてさて
+# This is example page
 
 ```go
 package main
@@ -26,10 +26,6 @@ func main() {
 ---
 
 # Slide 4
-
-{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} Two {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
 
 {{< frag c="One" >}}
 {{< frag c="Two" >}}
