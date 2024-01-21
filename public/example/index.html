@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>My presentation</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="/slides.io/reveal-js/dist/reset.css">
+<link rel="stylesheet" href="/slides.io/reveal-js/dist/reveal.css"><link rel="stylesheet" href="/slides.io/reveal-js/dist/theme/sky.css" id="theme">
+<link rel="stylesheet" href="/slides.io/highlight-js/default.min.css"><link rel="stylesheet" href="/slides.io/css/typography.css" id="custom_css">
+  </head>
+  <body>
+    
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="さてさて">さてさて</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">package</span> <span style="color:#000">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#4e9a06">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000">main</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Println</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Hello, world!&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div></section><section>
+<h1 id="slide-2">Slide 2</h1>
+</section><section>
+<h1 id="slide-3">Slide 3</h1>
+</section><section>
+<h1 id="slide-4">Slide 4</h1>
+<p>
+
+<span class='fragment ' >One</span>
+
+
+
+
+<span class='fragment ' >Two</span>
+
+
+
+
+<span class='fragment ' >Three</span>
+
+</p>
+<p><span class='fragment '
+  >
+  One
+</span>
+<span class='fragment '
+  >
+  Two
+</span>
+<span class='fragment '
+  >
+  Three
+</span></p>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/slides.io/reveal-hugo/object-assign.js></script>
+
+
+<script src="/slides.io/reveal-js/dist/reveal.js"></script>
+
+
+  <script type="text/javascript" src="/slides.io/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/slides.io/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/slides.io/reveal-js/plugin/zoom/zoom.js"></script>
+  
+  <script type="text/javascript" src="/slides.io/reveal-js/plugin/notes/notes.js"></script>
+  
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = {"custom_css":"css/typography.css","history":true,"theme":"sky","transition":"convex"};
+  var revealHugoPageParams = {};
+
+  var revealHugoPlugins = {
+    
+    plugins: [RevealMarkdown,RevealHighlight,RevealZoom,RevealNotes]
+  };
+
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams),
+    camelize(revealHugoPlugins));
+
+  Reveal.initialize(options);
+</script>
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+
+
+    
+    
+  </body>
+</html>
