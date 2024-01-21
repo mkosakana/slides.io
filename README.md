@@ -1,2 +1,2 @@
 # slide.io
-📽️ slides maker powered by [Hugo](https://gohugo.io/) and [reveal-hugo](https://reveal-hugo.dzello.com/#/)
+📽️ slides creator and manager powered by [Hugo](https://gohugo.io/) and [reveal-hugo](https://reveal-hugo.dzello.com/#/)
